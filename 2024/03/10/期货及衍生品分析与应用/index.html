@@ -1,15 +1,15 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>期货及衍生品分析与应用 | 东风夜放花千树</title><meta name="author" content="vhql"><meta name="copyright" content="vhql"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="期货及衍生品分析与应用   期货及衍生品定价   远期与期货定价   基本原理：无风险套利，有效的金融市场不存在无风险套利机会；   定价分析：   完全市场假设下的定价：  权益资产的定价 国债期货的定价 商品期货的定价 外汇期货的定价    不完全市场下的定价  存在交易成本 借贷利率不同        期权定价   期权平价公式与无套利区间  上限：看涨期权给其持有者以行权价格买入标的资产">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>期货及衍生品分析与应用 | 东风夜放花千树</title><meta name="author" content="vhql"><meta name="copyright" content="vhql"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="期货及衍生品分析与应用  期货及衍生品定价   远期与期货定价   基本原理：无风险套利，有效的金融市场不存在无风险套利机会； 远期和期货的无套利定价公式：F0&#x3D;S0erTF_0&#x3D;S_0e^{rT}F0​&#x3D;S0​erT 如果F0&gt;S0erTF_0&gt;S_0e^{rT}F0​&gt;S0​erT，做空期货，借入S0S_0S0​现金买入现货，到期实现套利；   定价分析：   完全市场假设">
 <meta property="og:type" content="article">
 <meta property="og:title" content="期货及衍生品分析与应用">
 <meta property="og:url" content="https://cn-vhql.github.io/2024/03/10/%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8/index.html">
 <meta property="og:site_name" content="东风夜放花千树">
-<meta property="og:description" content="期货及衍生品分析与应用   期货及衍生品定价   远期与期货定价   基本原理：无风险套利，有效的金融市场不存在无风险套利机会；   定价分析：   完全市场假设下的定价：  权益资产的定价 国债期货的定价 商品期货的定价 外汇期货的定价    不完全市场下的定价  存在交易成本 借贷利率不同        期权定价   期权平价公式与无套利区间  上限：看涨期权给其持有者以行权价格买入标的资产">
+<meta property="og:description" content="期货及衍生品分析与应用  期货及衍生品定价   远期与期货定价   基本原理：无风险套利，有效的金融市场不存在无风险套利机会； 远期和期货的无套利定价公式：F0&#x3D;S0erTF_0&#x3D;S_0e^{rT}F0​&#x3D;S0​erT 如果F0&gt;S0erTF_0&gt;S_0e^{rT}F0​&gt;S0​erT，做空期货，借入S0S_0S0​现金买入现货，到期实现套利；   定价分析：   完全市场假设">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
 <meta property="article:published_time" content="2024-03-10T13:07:21.000Z">
-<meta property="article:modified_time" content="2024-03-20T13:48:48.048Z">
+<meta property="article:modified_time" content="2024-03-24T04:52:54.096Z">
 <meta property="article:author" content="vhql">
-<meta property="article:tag" content="金融">
+<meta property="article:tag" content="期货">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://cn-vhql.github.io/2024/03/10/%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
   root: '/',
@@ -57,7 +57,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2024-03-20 21:48:48'
+  postUpdate: '2024-03-24 12:52:54'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -155,8 +155,7 @@
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="东风夜放花千树"><span class="site-name">东风夜放花千树</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">期货及衍生品分析与应用</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-03-10T13:07:21.000Z" title="发表于 2024-03-10 21:07:21">2024-03-10</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-03-20T13:48:48.048Z" title="更新于 2024-03-20 21:48:48">2024-03-20</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="期货及衍生品分析与应用"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="期货及衍生品分析与应用"><a class="markdownIt-Anchor" href="#期货及衍生品分析与应用"></a> 期货及衍生品分析与应用</h1>
-<hr />
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="东风夜放花千树"><span class="site-name">东风夜放花千树</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">期货及衍生品分析与应用</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-03-10T13:07:21.000Z" title="发表于 2024-03-10 21:07:21">2024-03-10</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-03-24T04:52:54.096Z" title="更新于 2024-03-24 12:52:54">2024-03-24</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="期货及衍生品分析与应用"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="期货及衍生品分析与应用"><a class="markdownIt-Anchor" href="#期货及衍生品分析与应用"></a> 期货及衍生品分析与应用</h1>
 <h3 id="期货及衍生品定价"><a class="markdownIt-Anchor" href="#期货及衍生品定价"></a> 期货及衍生品定价</h3>
 <ol>
 <li>
@@ -164,6 +163,8 @@
 <ol>
 <li>
 <p>基本原理：无风险套利，有效的金融市场不存在无风险套利机会；</p>
+<p>远期和期货的无套利定价公式：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>F</mi><mn>0</mn></msub><mo>=</mo><msub><mi>S</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mi>r</mi><mi>T</mi></mrow></msup></mrow><annotation encoding="application/x-tex">F_0=S_0e^{rT}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.991331em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.05764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">r</span><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span></span></span></span></span></span></span></span></span></span></span></span></p>
+<p>如果<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>F</mi><mn>0</mn></msub><mo>&gt;</mo><msub><mi>S</mi><mn>0</mn></msub><msup><mi>e</mi><mrow><mi>r</mi><mi>T</mi></mrow></msup></mrow><annotation encoding="application/x-tex">F_0&gt;S_0e^{rT}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.991331em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.05764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">r</span><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span></span></span></span></span></span></span></span></span></span></span></span>，做空期货，借入<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>S</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">S_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.05764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>现金买入现货，到期实现套利；</p>
 </li>
 <li>
 <p>定价分析：</p>
@@ -194,10 +195,19 @@
 <li>
 <p>期权平价公式与无套利区间</p>
 <ol>
-<li>上限：看涨期权给其持有者以行权价格买入标的资产的权利</li>
-<li>无孳息标的资产的欧式看涨期权下限</li>
-<li>无孳息标的资产的欧式看涨期权下限</li>
-<li>看涨-看跌期权平价公式：看涨期权价格-看跌期权价格=标的资产的价格-执行价格的现值</li>
+<li>
+<p>上限：看涨期权给其持有者以行权价格买入标的资产的权利</p>
+</li>
+<li>
+<p>无孳息标的资产的欧式看涨期权下限</p>
+</li>
+<li>
+<p>无孳息标的资产的欧式看涨期权下限</p>
+</li>
+<li>
+<p>看涨-看跌期权平价公式：</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">看</mi><mi mathvariant="normal">涨</mi><mi mathvariant="normal">期</mi><mi mathvariant="normal">权</mi><mi mathvariant="normal">价</mi><mi mathvariant="normal">格</mi><mo>−</mo><mi mathvariant="normal">看</mi><mi mathvariant="normal">跌</mi><mi mathvariant="normal">期</mi><mi mathvariant="normal">权</mi><mi mathvariant="normal">价</mi><mi mathvariant="normal">格</mi><mo>=</mo><mi mathvariant="normal">标</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">资</mi><mi mathvariant="normal">产</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">价</mi><mi mathvariant="normal">格</mi><mo>−</mo><mi mathvariant="normal">执</mi><mi mathvariant="normal">行</mi><mi mathvariant="normal">价</mi><mi mathvariant="normal">格</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">现</mi><mi mathvariant="normal">值</mi></mrow><annotation encoding="application/x-tex">看涨期权价格-看跌期权价格=标的资产的价格-执行价格的现值</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">看</span><span class="mord cjk_fallback">涨</span><span class="mord cjk_fallback">期</span><span class="mord cjk_fallback">权</span><span class="mord cjk_fallback">价</span><span class="mord cjk_fallback">格</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">看</span><span class="mord cjk_fallback">跌</span><span class="mord cjk_fallback">期</span><span class="mord cjk_fallback">权</span><span class="mord cjk_fallback">价</span><span class="mord cjk_fallback">格</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">标</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">资</span><span class="mord cjk_fallback">产</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">价</span><span class="mord cjk_fallback">格</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">执</span><span class="mord cjk_fallback">行</span><span class="mord cjk_fallback">价</span><span class="mord cjk_fallback">格</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">现</span><span class="mord cjk_fallback">值</span></span></span></span></p>
+</li>
 </ol>
 </li>
 <li>
@@ -226,15 +236,15 @@
 <p>希腊字母：常见的希腊字母</p>
 <ol>
 <li>
-<p>Delta：期权价格的变化量/标的资产价格的变化量</p>
+<p>Delta：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Δ</mi><mo>=</mo><mfrac><mrow><mi mathvariant="normal">Δ</mi><mi>C</mi></mrow><mrow><mi mathvariant="normal">Δ</mi><mi>S</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\Delta = \frac{\Delta C}{\Delta S}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Δ</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.217331em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.872331em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">Δ</span><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">Δ</span><span class="mord mathdefault mtight" style="margin-right:0.07153em;">C</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>​</p>
 <ol>
 <li>看涨期权Delta在【0,1】，看跌期权Delta在【-1,0】</li>
 <li>标的价格大于行权价时，标的资产价格上升，看涨期权的delta变大，看跌期权delta趋近0；标的价格小于行权价时，标的资产价格下跌，看涨期权的delta趋于0，看跌期权delta趋近-1；</li>
-<li>Delta对冲，投资者对了规避资产组合的价格变动风险</li>
+<li>Delta对冲，投资者为了规避资产组合的价格变动风险</li>
 </ol>
 </li>
 <li>
-<p>Gamma：Delta的变化量/标的资产价格的变化量</p>
+<p>Gamma：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Γ</mi><mo>=</mo><mfrac><mrow><msup><mi mathvariant="normal">∂</mi><mn>2</mn></msup><mi>C</mi></mrow><mrow><mi mathvariant="normal">∂</mi><msup><mi>S</mi><mn>2</mn></msup></mrow></mfrac></mrow><annotation encoding="application/x-tex">\Gamma = \frac{\partial^2 C}{\partial S^2}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Γ</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.36292em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.01792em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7463142857142857em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913142857142857em;"><span style="top:-2.931em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mord mathdefault mtight" style="margin-right:0.07153em;">C</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p>
 <ol>
 <li>看涨期权和看跌期权的Gamma均为正值；</li>
 <li>平值期权的Gamma最大。因为Gamma大导致Delta策略需要频繁调整期权关系，所以平值期权交易活跃；</li>
@@ -243,7 +253,7 @@
 </ol>
 </li>
 <li>
-<p>Vaga：期权价格的变化量/标的资产波动率的变化量</p>
+<p>Vaga：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ν</mi><mo>=</mo><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>C</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mi>σ</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\nu = \frac{\partial C}{\partial \sigma}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.06366em;">ν</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.2251079999999999em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.03588em;">σ</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.07153em;">C</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>，期权价格的变化量/标的资产波动率的变化量</p>
 <ol>
 <li>期权价格是波动率的递增函数</li>
 <li>平值期权对波动率变化最敏感</li>
@@ -251,14 +261,14 @@
 </ol>
 </li>
 <li>
-<p>Theta：期权价格的变化量/到期时间的变化量；</p>
+<p>Theta：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">Θ</mi><mo>=</mo><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>C</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mi>T</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\Theta = \frac{\partial C}{\partial T}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">Θ</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.2251079999999999em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.07153em;">C</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>，期权价格的变化量/到期时间的变化量；</p>
 <ol>
 <li>通常是负的，期权价值随到期日来临而降低；</li>
 <li>随着期权到期，平值期权Theta单调递减至负无穷大，非平值期权Theta先变小后变大，收敛到0。</li>
 </ol>
 </li>
 <li>
-<p>Rho：期权价格的变化量/市场利率的变化量；</p>
+<p>Rho：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>ρ</mi><mo>=</mo><mfrac><mrow><mi mathvariant="normal">∂</mi><mi>C</mi></mrow><mrow><mi mathvariant="normal">∂</mi><mi>r</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">\rho = \frac{\partial C}{\partial r}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">ρ</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.2251079999999999em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8801079999999999em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.02778em;">r</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathdefault mtight" style="margin-right:0.07153em;">C</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>，期权价格的变化量/市场利率的变化量；</p>
 <ol>
 <li>看涨期权Rho是正的，看跌期权Rho是负的；</li>
 <li>对看涨期权，标的资产价格越高，利率对期权价值影响越大。对看跌期权，标的资产价格越低，利率对期权价值影响越大。</li>
@@ -822,6 +832,9 @@
 <p>斜率变动：斜率变动则是指利率曲线的形状发生变化，通常是曲线的陡峭程度发生变化。这可能是由于短期、中期和长期利率的变动幅度不一致造成的。例如，如果短期利率上升幅度大于长期利率，或者长期利率下降幅度大于短期利率，那么利率曲线将变得更加陡峭；相反，如果短期利率上升幅度小于长期利率，或者长期利率下降幅度小于短期利率，利率曲线将变得平缓。</p>
 <p>斜率变动可以用来形容山的斜坡。如果你想象一座山，当山的斜坡变得更陡时，就像短期利率相对于长期利率上升的情况；而如果山的斜坡变得较缓，就像短期利率相对于长期利率下降的情况。</p>
 </li>
+<li>
+<p>曲度变化</p>
+</li>
 </ol>
 </li>
 <li>
@@ -853,6 +866,7 @@
 </li>
 <li>
 <p>买入基差交易：预期基差扩大，买入现货国债，卖出相当于转换因子数量的期货合约；</p>
+<p>卖出基差交易更易获利，风险更小。</p>
 </li>
 <li>
 <p>基差交易的特点：</p>
@@ -901,6 +915,13 @@
 <li>利率下限期权（利率封底）买方在市场参考利率&lt;下限利率，取得卖方支付的低于下限利率的差额；</li>
 <li>利率双限期权（利率上下限期权，利率领圈期权）确保支付与指定的市场利率介于两个上下限水平之间，可以看做是一个利率上限的长头寸和一个利率下限的短头寸的组合，即利率双限期权的买入方相当于买入一个利率上限的同时卖出一个利率下限，该利率上限期权和利率下限期权具有相同的到期日，但上限的执行利率比下限的执行利率高。</li>
 </ol>
+</li>
+<li>
+<p>非可交割的债券包括剩余期限过短，过长的债券，浮动附息债券，金融债，央票，信用债等债券。</p>
+</li>
+<li>
+<p>收益率曲线变凸后，中期期限的利率相对向下移动，短期和长期的利率相对向上移动。</p>
+<p>​<img src="https://jsd.cdn.zzko.cn/gh/cn-vhql/picture/picture_bed/202403212120529.png" alt="" />​</p>
 </li>
 </ol>
 <hr />
@@ -967,6 +988,9 @@
 <blockquote>
 <p>假设一家美国公司在欧洲有业务，预计6个月后需要支付100万欧元的货款。为了避免未来欧元对美元汇率上涨导致成本增加，该公司可以选择进行外汇掉期。首先，公司现在以当前的即期汇率将美元换成100万欧元。然后，在6个月后的约定日期，公司再以约定的远端汇率将这100万欧元换回美元。这样，公司就锁定了汇率，规避了未来汇率变动的风险。</p>
 </blockquote>
+<ol>
+<li>按照起息日类型不同，掉期交易分为远期对远期，即期对远期，隔夜掉期交易。</li>
+</ol>
 </li>
 </ol>
 </li>
@@ -984,7 +1008,7 @@
 <p>外汇跨期套利：牛市套利（买近卖远），熊市套利（卖近买远），蝶式套利（由两个方向相反，共享居中交割月份外汇期货合约的跨期套利组成）；期现套利（正套/反套）</p>
 </li>
 <li>
-<p>外汇跨市套利；外汇跨币种套利</p>
+<p>外汇跨市套利；外汇跨币种套利（两个币种具有一定关联性和相互替代性，交易受到同一因素制约，买入或卖出合约在相同的交割月份）</p>
 </li>
 </ol>
 </li>
@@ -992,7 +1016,7 @@
 <p>外汇期权策略：</p>
 <ol>
 <li>
-<p>单一期权：</p>
+<p>单一期权（期权和现汇的组合）：</p>
 <ol>
 <li>卖出看涨期权与现汇多头的配置——有保障的看涨期权策略</li>
 <li>买入看跌期权与现汇多头的配置——买进有保护的看跌期权策略</li>
@@ -1001,7 +1025,7 @@
 </ol>
 </li>
 <li>
-<p>期权组合</p>
+<p>期权组合（期权和期权的组合配置）</p>
 <ol>
 <li>
 <p>垂直价差策略：同时买入同一类型的两个期权</p>
@@ -1051,6 +1075,10 @@
 </li>
 </ol>
 </li>
+<li>
+<p>各类外汇远期交易介绍</p>
+<p><img src="https://jsd.cdn.zzko.cn/gh/cn-vhql/picture/picture_bed/202403231451906.png" alt="" />​</p>
+</li>
 </ol>
 <hr />
 <h3 id="场外衍生品"><a class="markdownIt-Anchor" href="#场外衍生品"></a> 场外衍生品</h3>
@@ -1062,6 +1090,7 @@
 <p>金融类远期协议</p>
 <ol>
 <li>远期利率协议：交易双方约定以未来既定时刻开始，在既定的时期内按照协议利率借贷一笔数额确定，以特定货币定价的协议；</li>
+<li>远期汇率协议：远期汇率协议是指按照约定的汇率，交易双方在约定的未来日期买卖约定数量的某种外币的远期协议。</li>
 </ol>
 </li>
 <li>
@@ -1074,22 +1103,32 @@
 <li>铁矿石掉期是以一定规格和品质的铁矿石在特定区域以现货价格为标的，以特定货币价计价，结算和清算的铁矿石价格指数衍生品合约。</li>
 </ol>
 </li>
+<li>
+<p>从市场实践来看，商品远期的作用在于价格发现和风险管理；</p>
+</li>
 </ol>
 </li>
 <li>
-<p>互换：</p>
+<p>互换：互换协议是线性的，结构更简单，更容易定价，更容易受到客户的欢迎。</p>
 <ol>
 <li>
-<p>利率互换概念：指交易双方约定在未来一定期限内对约定的名义本金按照不同的计息方法定义交换利息的互换协议，通常合约的一方支付的利息是基于浮动利率进行计算的，而另一方支付的利息则是基于固定利率的计算，也可以两边的利息计算都基于不同的浮动利率。</p>
+<p>利率互换概念：指交易双方约定在未来一定期限内对约定的名义本金按照不同的计息方法定义交换利息的互换协议，通常合约的一方（互换卖方）支付的利息是基于浮动利率进行计算的，而另一方（互换买方）支付的利息则是基于固定利率的计算，也可以两边的利息计算都基于不同的浮动利率。</p>
 <p>互换市场中的主要金融机构参与者通常处于做市商地位；</p>
+<p>利率互换交易中存在信用风险，所以企业结清现有互换合约头寸时，实际和效果具有差异。</p>
 </li>
 <li>
-<p>货币互换概念：交易双方在约定期限内交换既定数量的两种货币本金，同时定期交换两种货币利息的互换协议，一般在期初按约定汇率交换两种货币本金，并在期货以相同的汇率，相同金额进行一次本金反向互换。</p>
-<p>货币互换的基本形式：固定对固定，固定对浮动，浮动对浮动；</p>
+<p>货币互换概念：交易双方在约定期限内交换既定数量的两种货币本金，同时定期交换两种货币利息的互换协议，一般在期初按约定汇率交换两种货币本金，并在期货以相同的汇率，相同金额进行一次本金反向互换。（可能存在一定的违约风险）</p>
+<ol>
+<li>货币互换的基本形式：固定对固定（无利率风险，仅有汇率风险），固定对浮动，浮动对浮动；</li>
+<li>一般进行货币互换的目的就是规避汇率风险；交叉型的货币互换可以管理利率风险和汇率风险；</li>
+</ol>
 </li>
 <li>
 <p>股票收益互换：股票收益互换所交换的两个现金流系列，其中一系列挂钩于某个股票的价格或者某个股票价格指数，另一系列则挂钩于某个固定或浮动的利率，也可以挂钩于另外一个股票或股指的价格。有明确的名义本金和结算日期，通常约定无本金交割，即期初和期末的股票或股指都不会发生交割。</p>
 <p>股票收益互换可以实现杠杆交易，股票套期保值或创建结构化产品等目的；</p>
+<blockquote>
+<p>举个例子，假设投资者持有某公司的股票，并且预计这些股票未来会上涨。投资者可能会与金融机构达成一个股票收益互换协议，根据协议，投资者将支付固定利率，而金融机构则支付等同于股票涨幅的收益。如果股票确实上涨，投资者就能从互换协议中获得额外的收益；如果股票下跌，投资者则只需支付固定利率，而不会承担股票下跌的损失。</p>
+</blockquote>
 </li>
 <li>
 <p>大宗商品互换</p>
@@ -1136,6 +1175,9 @@
 <p>远期起点期权：是指期权并非签订就生效，而是在签订之后的未来某个事先约定的时刻生效，且其行权价格等于期权生效时的标的资产价格，即该期权在生效时是平值期权；</p>
 </li>
 <li>
+<p>回望期权：回望期权的价值取决于标的在期权存续期间价格的最高值或者最低值，回望期权在到期时要回望过去标的资产的表现，其收益支付结构与合约期间标的资产价格所达到的最大值或者最小值相关。可进一步细分为浮动行权价格回望期权，固定行权价格回望期权，部分回望期权，美式回望期权。</p>
+</li>
+<li>
 <p>障碍期权：也被称为触发期权，其价值取决于期权存续期内标的资产价格是否触及事先设定的障碍水平或者触发价格，分为敲入障碍期权和敲出障碍期权。</p>
 <blockquote>
 <p><strong>敲入期权（Knock-In Option）</strong> ： 敲入期权在合约开始时并不立即生效。只有当标的资产的价格达到预设的障碍水平时，期权才会“激活”并开始像普通期权那样运作。例如，一个敲入看涨期权可能规定，只有当股票价格下跌至某一特定水平以下时，期权才有效，此时期权持有者可以以约定的执行价格购买股票。</p>
@@ -1145,7 +1187,7 @@
 </ol>
 </li>
 <li>
-<p>相关性期权：</p>
+<p>相关性期权：也称为多资产期权，其收益受到至少两个标的资产的影响；</p>
 <ol>
 <li>交换期权：赋予持有人用一种资产按既定比率交换另外一种资产的权利，是相关性期权的基本形式，众多其他种类的相关性期权都可以转换为交换期权；</li>
 <li>彩虹期权：用两个或多个标的资产的最大值或最小值作为以一个虚拟资产或者指数充当标的资产的期权；</li>
@@ -1154,6 +1196,9 @@
 </li>
 <li>
 <p>场外期权的设计：识别约束条件，明确客户需求，设计具体条款；</p>
+</li>
+<li>
+<p>交易成本的高低会通过场外期权的复制对冲策略而反映在期权价格中，市场流动性在较大程度上限制了特定场外期权的交易规模，做空交易相关限制政策会影响到场外期权的类型；</p>
 </li>
 </ol>
 </li>
@@ -1171,9 +1216,15 @@
 <li>
 <p>担保债务凭证（Collateralized Debt Obligation，简称CDO）是一种资产证券化产品，它通过将一组固定收益资产（如公司债券、抵押贷款、贷款等）打包成一个资产池，然后基于这个资产池产生的现金流向投资者发行不同级别的证券。这些证券通常分为几个层次，包括优先级（senior tranches）、中间级（mezzanine tranches）和股权级（equity tranches），不同级别的证券承担不同的风险和收益。</p>
 <p>CDO的利息来源：从发起人处定期获得CDS费用；CDO发行所融资金的投资收益；</p>
+<blockquote>
+<p>信用资产池的所有者把该资产池打包转让给一个特殊目的机构（SPV），然后该SPV再以该资产池未来的收益为基础向投资者发行票据进行融资，该票据就是所谓的CDO。</p>
+</blockquote>
 </li>
 <li>
 <p>合成担保债务凭证（Synthetic Collateralized Debt Obligation，简称合成CDO）是一种特殊类型的担保债务凭证，其基础资产不是实际的债务资产池，而是信用违约互换（Credit Default Swap，简称CDS）合约。这意味着合成CDO的结构并不依赖于实际拥有债务资产，而是依赖于与这些资产相关的信用保护的衍生品。</p>
+<blockquote>
+<p>从投资人角度来看，合成CDO和CDO最大的差异在于信用风险转移给SPV的方式，在常规CDO是通过转移信用资产（应收债务）实现的，在合成CDO是通过信用衍生品（CDS）的交易来实现的。</p>
+</blockquote>
 </li>
 </ol>
 </li>
@@ -1200,13 +1251,16 @@
 <li>
 <p>构造：构造最简单的保本结构由无风险的零息债券和普通期权多头构建。</p>
 </li>
+<li>
+<p>鲨鱼鳍结构产品是保本结构的一种。</p>
+</li>
 </ol>
 </li>
 <li>
 <p>收益增强结构：</p>
 <ol>
 <li>
-<p>定义：产品在获得内嵌的固定收益证券所带来的利息收益之外，还通过期权净空头或者其他结构来获得收入，二者叠加使得产品的固定收入部分明显高于市场同期和同信用级别固定收益证券的利息收入。</p>
+<p>定义：产品在获得内嵌的固定收益证券所带来的利息收益之外，还通过期权净空头或者其他结构来获得收入，二者叠加使得产品的固定收入部分明显高于市场同期和同信用级别固定收益证券的利息收入。对投资者最大的优势是可以产生较高的现金流入，产品支付的利息收入明显高于同期限，同信用等级固定收益证券的利息。可能会存在无法保本的情况。</p>
 </li>
 <li>
 <p>收益构成：</p>
@@ -1238,14 +1292,21 @@
 </li>
 <li>
 <p>双赢结构：金融衍生品由向下敲出的跨式期权多头和下跌敲入的看跌期权空头组合构成，其中向下敲出的障碍水平和向下敲入的障碍水平相同。</p>
+<blockquote>
+<p>设计双赢结构的关键点在于设定敲入/敲出的障碍水平，该水平的设置必须满足：</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">固</mi><mi mathvariant="normal">定</mi><mi mathvariant="normal">收</mi><mi mathvariant="normal">益</mi><mi mathvariant="normal">证</mi><mi mathvariant="normal">券</mi><mi mathvariant="normal">利</mi><mi mathvariant="normal">息</mi><mo>+</mo><mi mathvariant="normal">向</mi><mi mathvariant="normal">下</mi><mi mathvariant="normal">敲</mi><mi mathvariant="normal">入</mi><mi mathvariant="normal">看</mi><mi mathvariant="normal">跌</mi><mi mathvariant="normal">期</mi><mi mathvariant="normal">权</mi><mi mathvariant="normal">价</mi><mi mathvariant="normal">格</mi><mo>=</mo><mi mathvariant="normal">向</mi><mi mathvariant="normal">下</mi><mi mathvariant="normal">敲</mi><mi mathvariant="normal">出</mi><mi mathvariant="normal">跨</mi><mi mathvariant="normal">式</mi><mi mathvariant="normal">组</mi><mi mathvariant="normal">合</mi><mi mathvariant="normal">的</mi><mi mathvariant="normal">价</mi><mi mathvariant="normal">格</mi></mrow><annotation encoding="application/x-tex">固定收益证券利息+向下敲入看跌期权价格=向下敲出跨式组合的价格</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">固</span><span class="mord cjk_fallback">定</span><span class="mord cjk_fallback">收</span><span class="mord cjk_fallback">益</span><span class="mord cjk_fallback">证</span><span class="mord cjk_fallback">券</span><span class="mord cjk_fallback">利</span><span class="mord cjk_fallback">息</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">向</span><span class="mord cjk_fallback">下</span><span class="mord cjk_fallback">敲</span><span class="mord cjk_fallback">入</span><span class="mord cjk_fallback">看</span><span class="mord cjk_fallback">跌</span><span class="mord cjk_fallback">期</span><span class="mord cjk_fallback">权</span><span class="mord cjk_fallback">价</span><span class="mord cjk_fallback">格</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">向</span><span class="mord cjk_fallback">下</span><span class="mord cjk_fallback">敲</span><span class="mord cjk_fallback">出</span><span class="mord cjk_fallback">跨</span><span class="mord cjk_fallback">式</span><span class="mord cjk_fallback">组</span><span class="mord cjk_fallback">合</span><span class="mord cjk_fallback">的</span><span class="mord cjk_fallback">价</span><span class="mord cjk_fallback">格</span></span></span></span></p>
+</blockquote>
+</li>
+<li>
+<p>雪球类产品既有收益增强，也有自动赎回。</p>
 </li>
 </ol>
 </li>
 <li>
-<p>利率类结构化产品：</p>
+<p>利率类结构化产品（利率联结结构）：根据结构化产品内嵌的金融衍生品类型不同，利率结构化产品包括内嵌利率远期的结构，或内嵌利率期权的结构。前者包括正向/逆向浮动利率结构，超级浮动利率结构。后者包括利率封顶浮动利率结构以及区间浮动利率结构。</p>
 <ol>
 <li>
-<p>逆向浮动结构：类似于浮动利率债券。产品票息=某个固定利率-某个浮动利率，每3个月或6个月调整一次。当利率持续下跌，逆向浮动结构将为投资者带来更高的收益；</p>
+<p>逆向浮动结构：类似于浮动利率债券。相当于一份内嵌了利率互换和利率上限期权的固定利率债券，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">产</mi><mi mathvariant="normal">品</mi><mi mathvariant="normal">票</mi><mi mathvariant="normal">息</mi><mo>=</mo><mi mathvariant="normal">某</mi><mi mathvariant="normal">个</mi><mi mathvariant="normal">固</mi><mi mathvariant="normal">定</mi><mi mathvariant="normal">利</mi><mi mathvariant="normal">率</mi><mo>−</mo><mi mathvariant="normal">某</mi><mi mathvariant="normal">个</mi><mi mathvariant="normal">浮</mi><mi mathvariant="normal">动</mi><mi mathvariant="normal">利</mi><mi mathvariant="normal">率</mi></mrow><annotation encoding="application/x-tex">产品票息=某个固定利率-某个浮动利率</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mord cjk_fallback">产</span><span class="mord cjk_fallback">品</span><span class="mord cjk_fallback">票</span><span class="mord cjk_fallback">息</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">某</span><span class="mord cjk_fallback">个</span><span class="mord cjk_fallback">固</span><span class="mord cjk_fallback">定</span><span class="mord cjk_fallback">利</span><span class="mord cjk_fallback">率</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback">某</span><span class="mord cjk_fallback">个</span><span class="mord cjk_fallback">浮</span><span class="mord cjk_fallback">动</span><span class="mord cjk_fallback">利</span><span class="mord cjk_fallback">率</span></span></span></span>，每3个月或6个月调整一次。当利率持续下跌，逆向浮动结构将为投资者带来更高的收益；</p>
 </li>
 <li>
 <p>区间浮动结构：</p>
@@ -1261,7 +1322,7 @@
 <p>汇率类结构化产品</p>
 <ol>
 <li>
-<p>双货币结构：</p>
+<p>双货币结构：双货币结构本金是外币，利息是本币，因此利息没有汇率风险，本金有汇率风险，风险敞口较大。</p>
 <ol>
 <li>
 <p>产品特征及结构：双货币结构化产品与普通的债券类似，定期支付利息并在期末偿还本金，本金和利息均以相同的货币（本币）计价，期末收回的本金以另一种货币（外币）计价。由于以外币作为本金偿还的计价货币，本金收回将承担外汇风险，风险敞口等于投资本金。</p>
@@ -1306,6 +1367,7 @@
 <p>风险识别：</p>
 <ol>
 <li>市场风险；信用风险；流动性风险； 操作风险；模型风险</li>
+<li>产品层面的风险识别是识别单个衍生品所存在的风险，核心内容是识别出影响产品价值变动的主要风险因子。部门层面的风险识别是在产品层面风险识别的基础上，充分考虑一个交易部门所持有的所有衍生品的风险，核心内容是识别出各类风险因子的相关性和整个部门的衍生品持仓对各个风险因子是否有显著的敞口。公司层面的风险识别是在部门层面风险识别的基础上，更多的关注业务开展流程中出现的一些非市场行情所导致的不确定性，包括授权，流程，合规，结算等活动中的风险。</li>
 </ol>
 </li>
 <li>
@@ -1322,10 +1384,18 @@
 <p>压力测试：一些风险因子发生极端变化情况下的极端情景分析，极端情景下计算金融产品的损失。</p>
 </li>
 <li>
-<p>在险价值VaR：在一定概率水平α%（置信水平）下某金融资产或资产组合的价值在未来特定时期（N天）可能得最大损失；</p>
+<p>在险价值VaR：在一定概率水平α%（置信水平）下某金融资产或资产组合的价值在未来特定时期（N天）可能得最大损失；α越大，风险厌恶程度越高，能够得到把握较大的预测结果。</p>
 <ol>
 <li>计算VaR所需要的信息，时间长度N，置信水平，资产组合未来价值变动的分布特征；</li>
 <li>计算方法：历史模拟法和蒙特卡洛模拟法；</li>
+<li>在置信水平的选择上，一定程度反映了金融机构对于风险承担的态度或偏好。</li>
+<li><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>V</mi><mi>a</mi><msub><mi>R</mi><mi>N</mi></msub><mo>=</mo><msqrt><mi>N</mi></msqrt><mo>⋅</mo><mi>V</mi><mi>a</mi><msub><mi>R</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">VaR_N = \sqrt{N} \cdot VaR_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="mord mathdefault">a</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.32833099999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.10903em;">N</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.04em;vertical-align:-0.11333499999999996em;"></span><span class="mord sqrt"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9266650000000001em;"><span class="svg-align" style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord" style="padding-left:0.833em;"><span class="mord mathdefault" style="margin-right:0.10903em;">N</span></span></span><span style="top:-2.886665em;"><span class="pstrut" style="height:3em;"></span><span class="hide-tail" style="min-width:0.853em;height:1.08em;"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,
+-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,
+-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,
+35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,
+-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467
+s-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422
+s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.11333499999999996em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="mord mathdefault">a</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.00773em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></li>
 </ol>
 </li>
 </ol>
@@ -1350,5 +1420,8 @@
 </li>
 </ol>
 </li>
+<li>
+<p>牵制风险：当平值期权在临近到期时，期权的delta会由于资产价格的小幅变化而发生较大幅度的变动。</p>
+</li>
 </ol>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://cn-vhql.github.io">vhql</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://cn-vhql.github.io/2024/03/10/%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8/">https://cn-vhql.github.io/2024/03/10/%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://cn-vhql.github.io" target="_blank">东风夜放花千树</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%87%91%E8%9E%8D/">金融</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2024/02/12/%E4%BA%BA%E7%B1%BB%E7%81%AD%E7%BB%9D/" title="人类灭绝"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">人类灭绝</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2023/07/30/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%88%86%E6%9E%90/" title="宏观经济分析"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-07-30</div><div class="title">宏观经济分析</div></div></a></div><div><a href="/2022/02/03/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E8%AF%BB%E8%B4%A2%E6%8A%A5/" title="手把手教你读财报"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-02-03</div><div class="title">手把手教你读财报</div></div></a></div><div><a href="/2022/11/11/%E6%8A%95%E8%B5%84%E6%8A%80%E5%B7%A7/" title="投资技巧"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-11-11</div><div class="title">投资技巧</div></div></a></div><div><a href="/2022/04/06/%E8%B4%9F%E5%80%BA%E8%A1%A8%E6%98%AF%E5%A6%82%E4%BD%95%E5%BB%BA%E7%AB%8B%E8%B5%B7%E6%9D%A5%E7%9A%84/" title="负债表是如何建立起来的"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-06</div><div class="title">负债表是如何建立起来的</div></div></a></div><div><a href="/2022/04/14/%E9%87%91%E8%9E%8D%E7%9A%84%E6%9C%AC%E8%B4%A8%EF%BC%9A%E4%BC%AF%E5%8D%97%E5%85%8B%E8%AE%B2%E7%BE%8E%E8%81%94%E5%82%A8/" title="金融的本质：伯南克讲美联储"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-14</div><div class="title">金融的本质：伯南克讲美联储</div></div></a></div><div><a href="/2022/04/07/%E5%87%AF%E6%81%A9%E6%96%AF%E7%90%86%E8%AE%BA/" title="凯恩斯理论"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-07</div><div class="title">凯恩斯理论</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">vhql</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/qianglegend"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8"><span class="toc-number">1.</span> <span class="toc-text"> 期货及衍生品分析与应用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%AE%9A%E4%BB%B7"><span class="toc-number">1.0.1.</span> <span class="toc-text"> 期货及衍生品定价</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%88%86%E6%9E%90%E4%B8%8E%E6%8C%87%E6%A0%87"><span class="toc-number">1.0.2.</span> <span class="toc-text"> 宏观经济分析与指标</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90"><span class="toc-number">1.0.3.</span> <span class="toc-text"> 统计分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%82%A1%E6%8C%87%E6%9C%9F%E8%B4%A7%E8%A1%8D%E7%94%9F%E5%93%81%E5%BA%94%E7%94%A8"><span class="toc-number">1.0.4.</span> <span class="toc-text"> 股指期货衍生品应用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BD%E5%80%BA%E6%9C%9F%E8%B4%A7%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8"><span class="toc-number">1.0.5.</span> <span class="toc-text"> 国债期货衍生品分析与应用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%96%E6%B1%87%E6%9C%9F%E8%B4%A7"><span class="toc-number">1.0.6.</span> <span class="toc-text"> 外汇期货</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%BA%E5%A4%96%E8%A1%8D%E7%94%9F%E5%93%81"><span class="toc-number">1.0.7.</span> <span class="toc-text"> 场外衍生品</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%93%E6%9E%84%E5%8C%96%E4%BA%A7%E5%93%81"><span class="toc-number">1.0.8.</span> <span class="toc-text"> 结构化产品</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%8D%E7%94%9F%E5%93%81%E4%B8%9A%E5%8A%A1%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86"><span class="toc-number">1.0.9.</span> <span class="toc-text"> 衍生品业务风险管理</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/03/10/%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8/" title="期货及衍生品分析与应用">期货及衍生品分析与应用</a><time datetime="2024-03-10T13:07:21.000Z" title="发表于 2024-03-10 21:07:21">2024-03-10</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/12/%E4%BA%BA%E7%B1%BB%E7%81%AD%E7%BB%9D/" title="人类灭绝">人类灭绝</a><time datetime="2024-02-12T04:19:37.000Z" title="发表于 2024-02-12 12:19:37">2024-02-12</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/09/16/%E7%BF%A6%E5%95%86/" title="翦商">翦商</a><time datetime="2023-09-16T13:54:18.000Z" title="发表于 2023-09-16 21:54:18">2023-09-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/30/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%88%86%E6%9E%90/" title="宏观经济分析">宏观经济分析</a><time datetime="2023-07-30T08:41:20.000Z" title="发表于 2023-07-30 16:41:20">2023-07-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/01/01/%E6%9C%9F%E8%B4%A7%E5%A4%9A%E7%A9%BA%E9%80%BB%E8%BE%91/" title="期货多空逻辑">期货多空逻辑</a><time datetime="2023-01-01T13:35:15.000Z" title="发表于 2023-01-01 21:35:15">2023-01-01</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By vhql</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://cn-vhql.github.io">vhql</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://cn-vhql.github.io/2024/03/10/%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8/">https://cn-vhql.github.io/2024/03/10/%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://cn-vhql.github.io" target="_blank">东风夜放花千树</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%9C%9F%E8%B4%A7/">期货</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2024/02/12/%E4%BA%BA%E7%B1%BB%E7%81%AD%E7%BB%9D/" title="人类灭绝"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">人类灭绝</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2023/01/01/%E4%B8%80%E4%B8%AA%E5%86%9C%E6%B0%91%E7%9A%84%E4%BA%BF%E4%B8%87%E4%BC%A0%E5%A5%87/" title="一个农民的亿万传奇"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-01-01</div><div class="title">一个农民的亿万传奇</div></div></a></div><div><a href="/2023/01/01/%E6%9C%9F%E8%B4%A7%E5%A4%9A%E7%A9%BA%E9%80%BB%E8%BE%91/" title="期货多空逻辑"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-01-01</div><div class="title">期货多空逻辑</div></div></a></div><div><a href="/2022/12/26/%E5%A5%97%E6%9C%9F%E4%BF%9D%E5%80%BC%E5%AE%9E%E5%8A%A1/" title="套期保值实务"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-12-26</div><div class="title">套期保值实务</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">vhql</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/qianglegend"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8"><span class="toc-number">1.</span> <span class="toc-text"> 期货及衍生品分析与应用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%AE%9A%E4%BB%B7"><span class="toc-number">1.0.1.</span> <span class="toc-text"> 期货及衍生品定价</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%88%86%E6%9E%90%E4%B8%8E%E6%8C%87%E6%A0%87"><span class="toc-number">1.0.2.</span> <span class="toc-text"> 宏观经济分析与指标</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90"><span class="toc-number">1.0.3.</span> <span class="toc-text"> 统计分析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%82%A1%E6%8C%87%E6%9C%9F%E8%B4%A7%E8%A1%8D%E7%94%9F%E5%93%81%E5%BA%94%E7%94%A8"><span class="toc-number">1.0.4.</span> <span class="toc-text"> 股指期货衍生品应用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BD%E5%80%BA%E6%9C%9F%E8%B4%A7%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8"><span class="toc-number">1.0.5.</span> <span class="toc-text"> 国债期货衍生品分析与应用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%96%E6%B1%87%E6%9C%9F%E8%B4%A7"><span class="toc-number">1.0.6.</span> <span class="toc-text"> 外汇期货</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9C%BA%E5%A4%96%E8%A1%8D%E7%94%9F%E5%93%81"><span class="toc-number">1.0.7.</span> <span class="toc-text"> 场外衍生品</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%93%E6%9E%84%E5%8C%96%E4%BA%A7%E5%93%81"><span class="toc-number">1.0.8.</span> <span class="toc-text"> 结构化产品</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%8D%E7%94%9F%E5%93%81%E4%B8%9A%E5%8A%A1%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86"><span class="toc-number">1.0.9.</span> <span class="toc-text"> 衍生品业务风险管理</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/03/10/%E6%9C%9F%E8%B4%A7%E5%8F%8A%E8%A1%8D%E7%94%9F%E5%93%81%E5%88%86%E6%9E%90%E4%B8%8E%E5%BA%94%E7%94%A8/" title="期货及衍生品分析与应用">期货及衍生品分析与应用</a><time datetime="2024-03-10T13:07:21.000Z" title="发表于 2024-03-10 21:07:21">2024-03-10</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/02/12/%E4%BA%BA%E7%B1%BB%E7%81%AD%E7%BB%9D/" title="人类灭绝">人类灭绝</a><time datetime="2024-02-12T04:19:37.000Z" title="发表于 2024-02-12 12:19:37">2024-02-12</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/09/16/%E7%BF%A6%E5%95%86/" title="翦商">翦商</a><time datetime="2023-09-16T13:54:18.000Z" title="发表于 2023-09-16 21:54:18">2023-09-16</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/07/30/%E5%AE%8F%E8%A7%82%E7%BB%8F%E6%B5%8E%E5%88%86%E6%9E%90/" title="宏观经济分析">宏观经济分析</a><time datetime="2023-07-30T08:41:20.000Z" title="发表于 2023-07-30 16:41:20">2023-07-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/01/01/%E6%9C%9F%E8%B4%A7%E5%A4%9A%E7%A9%BA%E9%80%BB%E8%BE%91/" title="期货多空逻辑">期货多空逻辑</a><time datetime="2023-01-01T13:35:15.000Z" title="发表于 2023-01-01 21:35:15">2023-01-01</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By vhql</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
